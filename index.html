@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <title>my_music</title>
+</head>
+<body>
+  <script src="js/my_music.js"></script>
+  <div id="piano">
+    <div class="keys">
+      <div id="gb" class="key" onclick="playNote('gb')"></div>
+      <div id="a" class="key black black1" onclick="playNote('a')"></div>
+      <div id="bb" class="key" onclick="playNote('bb')"></div>
+      <div id="b" class="key black black3" onclick="playNote('b')"></div>
+      <div id="c" class="key" onclick="playNote('c')"></div>
+      <div id="cb" class="key" onclick="playNote('cb')"></div>
+      <div id="d" class="key black black1" onclick="playNote('d')"></div>
+      <div id="eb" class="key" onclick="playNote('eb')"></div>
+      <div id="e" class="key black black2" onclick="playNote('e')"></div>
+      <div id="f" class="key" onclick="playNote('f')"></div>
+      <div id="fb" class="key black black3" onclick="playNote('fb')"></div>
+      <div id="g" class="key" onclick="playNote('g')"></div>
+    </div>
+    <button id="record" onclick="recordMode()">Enregistrer</button>
+  </div>
+  <div id="listRecords">
+  </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "my_music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/server.js",
+  "bin": {
+    "my_music": "server.js"
+  },
+  "scripts": {
+    "start": "node bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
